@@ -712,8 +712,28 @@ p {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 15px;
+
 }
 
+.process-box {
+  display: flex;
+  margin-top: 20px;
+}
+
+.process {
+  margin: 0 20px;
+  background-color: rgb(73, 63, 63);
+  color: #fff;
+  width: 400px;
+  height: 20vh;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+.process h2 {
+  font-size: 2rem;
+}
+.round
 .white-text {
   color: #fff; 
 }

@@ -1,11 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  /* outline: 1px solid red; */
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   /* background-color: #fff; */
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .layer {
@@ -358,7 +361,7 @@ background-color: #f5f5f5;
   max-width: 600px;
   display: flex;
   padding: 30px 100px;
-}
+} 
 
 .about-section .cental-about-images {
   position: relative;
@@ -366,13 +369,18 @@ background-color: #f5f5f5;
 
 .about-section .cental-about-images img {
   border-radius: 10px;
+  position: relative;
+  left: -29px;
+  bottom: -150px;
+
 }
 
 .about-section .cental-about-images .cai-2 {
   position: absolute;
   bottom: 10%;
-  left: 50px;
-  /* width: 100%; */
+  left: 40px;
+  border: 1px #fff solid;
+  width: 90%; 
   /* height: 100%; */
   z-index: 1000;
 }
@@ -521,6 +529,7 @@ background-color: #f5f5f5;
 .founder-img {
   width: 70px;
   height: 70px;
+  position: relative;
   border-radius: 50%;
   border: 3px solid #20335a;
   object-fit: cover;
@@ -691,8 +700,12 @@ p {
 .centalprocess-section {
   text-align: center;
   padding: 40px 20px;
-  background-image:  url(Assets/img/bg-1.jpg)
+  background-image:  url(Assets/img/bg-1.jpg);
+  background-position: center;
+  background-size: cover;
 
+  background-color: rgba(0, 0, 0, 0.9);
+  background-blend-mode: darken;
 }
 
 .tittle-section {

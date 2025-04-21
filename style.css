@@ -660,11 +660,72 @@ p {
 }
 
 
+.vehicle-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: #ffffff;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.black-text {
+  color: #0d1b2a; /* dark/navy shade */
+}
+
+.red-text {
+  color: #f20d29; /* vibrant red */
+}
+
+.description {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+
+.centalprocess-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-image:  url(Assets/img/bg-1.jpg)
+
+}
+
+.tittle-section {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.white-text {
+  color: #fff; 
+}
+
+.red-text {
+  color: #f20d29; 
+}
+
+.text-description {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #f7f1f1;
+  line-height: 1.6;
+}
+
+.process-box{
+  display: flex;
+  text-align: center;
+}
+
 
 footer {
   display: flex;
   justify-content: space-around;
-  margin: 40px auto;
+  margin: 0px auto;
   background-color: #010A1B;
   padding: 50px 0;
 }

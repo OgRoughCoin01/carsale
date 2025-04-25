@@ -26,13 +26,14 @@ body {
 
 .contact {
   gap: 20px;
+  /* padding-top: 16px; */
 }
 
 .layer .social-link a {
   color: red;
   text-decoration: none;
   margin-right: 10px;
-  border-radius: 50%;
+  border-radius: 17px;
   padding: 8px;
   background-color: #fff;
 }
@@ -45,7 +46,7 @@ body {
   background-color: #fff;
   display: flex;
   justify-content: space-around;
-  padding-top: 10px;
+  padding-top:  40px;
 }
 
 .navbar ul {
@@ -69,6 +70,7 @@ body {
   margin-left: 10px;
   text-decoration: none;
   text-transform: capitalize;
+  padding: 20px 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 }
 
 /* .navbar ul li a {
@@ -377,7 +379,7 @@ background-color: #f5f5f5;
 
 .about-section .cental-about-images .cai-2 {
   position: absolute;
-  bottom: 24%;
+  bottom: 410px;
   left: 40px;
   border: 1px #fff solid;
   width: 90%; 
@@ -527,8 +529,8 @@ background-color: #f5f5f5;
 }
 
 .founder-img {
-  width: 70px;
-  height: 70px;
+  width: 200px;
+  height: 200px;
   position: relative;
   border-radius: 50%;
   border: 3px solid #20335a;
